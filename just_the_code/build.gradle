@@ -1,0 +1,17 @@
+
+plugins {
+    id 'org.jetbrains.intellij' version '0.4.16'
+}
+
+group 'matthew.carruth'
+version '1.0'
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version '2019.3.3'
+}
+patchPluginXml {
+    changeNotes """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
